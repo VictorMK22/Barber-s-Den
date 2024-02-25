@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+pqUvHczvo0qIf6jAdy1RoYtIzjEx8RO+YG3G5yOeINl+vcC" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar">
+                <div id="logo"><a href="#">Barber's Den</a></div>
+                <div class = "navlinks">
+                    <a href="index.html" target="_parent" rel="noopener">Home</a>
+                    <a href="services.html" target="_parent" rel="noopener">Services</a>
+                    <a href="about.html" target="_parent" rel="noopener">About Us</a>
+                    <a href="photo.html" target="_parent" rel="noopener">Photo</a>
+                    <a href="login.html" target="_parent" rel="noopener">Login</a>
+                </div>
+            </nav>
+        </header>
+
+    <main>
+        <h1 class="form">Please register to get started!</h1>
+        <form class="sign" action="sign up.php" method="POST">
+            <section>
+                <ol>
+                    <li><label for="f_name">F_name:</label><br>
+                        <input type="text" id="f_name" name="f_name" minlength="4" maxlength="15" required>
+                    </li>
+
+                    <li><label for="l_name">L_name:</label><br>
+                        <input type="text" id="l_name" name="l_name" minlength="4" maxlength="15" required>
+                    </li>
+
+                    <li><label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+
+                    <li><label for="pwd">Password:</label><br>
+                        <input type="password" id="pwd" name="password" required>
+                    </li>
+                </ol>
+
+                    <label for="btn"></label>
+                        <input id="btn" type="submit" value="submit">
+                    
+                    <div>Do you have an account?<a href="login.html" target="_parent" rel="noopener">Login</a></div>
+
+            </section>
+
+        </form>
+    </main>
+    </body>
+</html>

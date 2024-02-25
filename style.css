@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+/* @media only screen and (max-width: 500px) {
+    body {
+      width: 100%;
+    }
+  } */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: 4;
+    background-color: deepskyblue;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px !important;
+    text-transform: uppercase;
+}
+
+
+.navbar{
+    background-color: black;
+    height: 90PX;
+    width: 100%;
+    padding-bottom: 10PX;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    margin-left: 10px;
+}
+
+#logo:hover{
+    color: cyan;
+    transition: 0.9s;
+}
+
+.navlinks {
+    margin-right: 10px;
+}
+
+.navlinks a {
+    display: inline-flex;
+    padding: 20px;
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+main{
+    margin-left: 0;
+}
+
+
+table{
+    border: 1px solid greenyellow;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color:darkviolet;
+    font-weight: 600;
+}
+
+h4{
+    color: blueviolet;
+    margin: auto;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.form{
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sign{
+    border: 3px double palevioletred;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: blue;
+    
+}
+
+.sign section{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: block;
+    text-align: center;
+}
+
+section li{
+    margin: 20px;
+}
+
+section label{
+text-align: center;
+color: deepskyblue;
+font-size: 25px;
+font-family: 'Roboto';
+font-weight: 700;
+
+}
+
+section input{
+text-align: center;
+background-color: orangered;
+}
+
+section #username{
+    background-color:rgb(255, 0, 200);
+    align-items: center;
+    }
+    
+section #email{
+    align-items: center;
+    }
+    
+section #pwd{
+    align-items: center;
+    }
+    
+
+section #btn{
+    background-color: black;
+    margin-left: 30%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+section div{
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+section div a{
+    color: deepskyblue;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+p{
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    margin: 10px;
+    color: black;
+    font-family: 'Roboto';
+}
+ 
+
+.haircut{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15%;
+}
+
+.info{
+    float: left;
+}
+
+.t1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.t2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.t3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mail a{
+    color: yellowgreen;
+    font-family: 'Roboto';
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.mail a:hover{
+    color:aqua;
+    transition: 0.86;
+}
+
+
+.flex-container{
+    display: block;
+    background-color: blue;
+    float: left;
+    margin: 5%;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+.flex-container div{
+    padding: 5px;
+    margin-left: 40%;
+}
+
+.pics{
+    background-color: blue;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    overflow: auto;
+}
+
+figure{
+    display: inline-block;
+    margin: 3% 5%;
+}
+
+figcaption a{
+    text-align: center;
+    color: yellowgreen;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.pics img{
+    height: 400px;
+    width: 400px;
+    border-radius: 0;
+}
+
+ol{
+    margin-bottom: 15px;
+}
+
+ol a{
+    color: black;
+    font-style: italic;
+}
+
+.top{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.flex-container1{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: DodgerBlue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.servicecut{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.fas{
+    margin-right: 20px;
+    color: yellowgreen;
+}
+
+.fab{
+    margin-right: 20px;
+    color: yellowgreen;
+}
+
+h3.social{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 900;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#youtube{
+    margin-bottom: 5%;
+}
+
+.flex-container1 #booking{
+    background-color: black;
+    color: yellowgreen;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.flex-container1 #booking:hover{
+    color: orangered;
+    transition: 0.9s;
+}
+
+.bottomtop{
+    border: 2px solid red;
+    display: block;
+    float: left;
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+} 
+
+.bottomtop a{   
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    padding: 20px;
+}
+
+.bottomtop a:hover{
+    color: yellowgreen;
+    transition: 0.9s;
+}
+
+section #services{
+    background-color: orangered;
+}
+
+#comments{
+    background-color: orangered;
+    color: white;
+}
+
+.video{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.welcome{
+    border: 2px red solid;
+    height: 70px;
+    font-size: larger;
+    color: black;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    animation: vic 25s cubic-bezier(0.88,-0.46, 0.69, 1.63)  infinite;
+}
+
+@keyframes vic {
+    10%{background-color: blue;}
+    30%{background-color: green;}
+    50%{background-color: fuchsia;}
+    75%{background-color: white;}
+    100%{background-color: yellow;}
+
+}
+
+@media screen and (max-width: 550px){
+ body{display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar{
+    background-color: black;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+}

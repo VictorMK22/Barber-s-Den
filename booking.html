@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+pqUvHczvo0qIf6jAdy1RoYtIzjEx8RO+YG3G5yOeINl+vcC" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+            <nav class="navbar">
+                <div id="logo"><a href="#">Barber's Den</a></div>
+                <div class = "navlinks">
+                    <a href="index.html" target="_parent" rel="noopener">Home</a>
+                    <a href="services.html" target="_parent" rel="noopener">Services</a>
+                    <a href="about.html" target="_parent" rel="noopener">About Us</a>
+                    <a href="photo.html" target="_parent" rel="noopener">Photo</a>
+                </div>
+            </nav>
+        </header>
+
+    <main>
+        <h1 class="form">Book an Appointment</h1>
+        
+        <form class="sign" action="booking.php" method="post">
+            <section>
+                <ol>
+
+                    <li><label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required></li>
+                    
+                    <li><label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required></li>
+                    
+                    <li><label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" required></li>
+                    
+                    <li><label for="services">Select a Service:</label><br>
+                        <select id="services" name="select_a_service" required>
+                            <option value="Classic Haircut">Classic Haircut</option>
+                            <option value="Modern Styles and Fades">Modern Styles and Fades</option>
+                            <option value="Hot Towel Shave">Hot Towel Shave</option>
+                            <option value="Beard Grooming">Beard Grooming</option>
+                            <option value="Moustache Styling">Moustache Styling</option>
+                            <option value="Hair and Scalp Treatments">Hair and Scalp Treatments</option>
+                            <option value="Gray Blending">Gray Blending</option>
+                            <option value="Children's Cuts">Children's Cuts</option>
+                            <option value="Grooming Packages">Grooming Packages</option>
+                            <option value="Event Styling">Event Styling</option>
+                        </select></li>
+                    
+                    <li><label for="date">Preferred Date:</label><br>
+                        <input type="date" id="date" name="preferred_date" required></li>
+                    
+                    <li><label for="time">Preferred Time:</label><br>
+                        <input type="time" id="time" name="preferred_time" required></li>
+                    
+                    <li><label for="comments">Additional Comments:</label><br>
+                        <textarea id="comments" name="additional_comments" rows="4" cols="50"></textarea></li>
+                </ol>
+                    
+                    <label for="btn"></label>
+                        <input id="btn" type="submit" name="button" value="Submit Appointment">
+            </section>
+        </form>
+    </main>
+</body>
+</html>
